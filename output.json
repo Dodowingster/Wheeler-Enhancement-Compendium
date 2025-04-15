@@ -1,0 +1,46 @@
+[
+    {
+        "class": "Images",
+        "png": "./Images\\DDDM.png"
+    },
+    {
+        "class": "Images",
+        "png": "./Images\\Fighter.png"
+    },
+    {
+        "class": "Images",
+        "png": "./Images\\Mage.png"
+    },
+    {
+        "class": "Images",
+        "png": "./Images\\Rogue.png"
+    },
+    {
+        "class": "Images",
+        "png": "./Images\\WOE AIO.png"
+    },
+    {
+        "class": "Gifs",
+        "gif": "./Images\\Gifs\\DDDM_Wheeler.gif",
+        "Reskin": "DDDM",
+        "ReskinPath": "Reskins\\DDDM Reskin\\SKSE\\Plugins\\wheeler\\resources\\icons"
+    },
+    {
+        "class": "Gifs",
+        "gif": "./Images\\Gifs\\Fighter_Wheeler.gif",
+        "Reskin": "Fighter",
+        "ReskinPath": "Reskins\\Fighter Reskin\\SKSE\\Plugins\\wheeler\\resources\\icons"
+    },
+    {
+        "class": "Gifs",
+        "gif": "./Images\\Gifs\\Mage_Wheeler.gif",
+        "Reskin": "Mage",
+        "ReskinPath": "Reskins\\Mage Reskin\\SKSE\\Plugins\\wheeler\\resources\\icons"
+    },
+    {
+        "class": "Gifs",
+        "gif": "./Images\\Gifs\\Rogue_Wheeler.gif",
+        "Reskin": "Rogue",
+        "ReskinPath": "Reskins\\Rogue Reskin\\SKSE\\Plugins\\wheeler\\resources\\icons"
+    }
+]

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256mm"
+   height="256mm"
+   viewBox="0 0 256 256"
+   version="1.1"
+   id="svg4293"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="wheel_indicator_active.svg"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview4295"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.31559402"
+     inkscape:cx="-7.9215697"
+     inkscape:cy="172.69022"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4293" /><defs
+     id="defs4290" /><path
+     id="rect1"
+     style="fill:#000000;fill-opacity:1;stroke:#e78207;stroke-width:12;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     d="M 14.085445,6.0001553 V 161.25166 h -0.137459 l 114.106734,57.09936 114.10724,-57.09936 h -0.11213 V 64.184196 h -0.0253 V 6.0001553 Z"
+     sodipodi:nodetypes="cccccccccc" /><path
+     id="path4"
+     style="fill:none;fill-opacity:1;stroke:#e78207;stroke-width:5.43942;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     d="m 37.132969,145.21574 90.910811,51.4583 90.91083,-51.4583 h -0.089 V 57.737883 h -0.0201 V 5.3016293 H 37.242274 V 145.21574 Z"
+     sodipodi:nodetypes="cccccccccc" /><circle
+     style="fill:#e78207;fill-opacity:1;stroke:none;stroke-width:2.42303;stroke-linejoin:bevel"
+     id="path1"
+     cx="128"
+     cy="82.095551"
+     r="34.383232" /></svg>

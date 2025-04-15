@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icon Showcase</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding: 2rem;
+        }
+
+        .icon-card {
+            background: white;
+            border-radius: 1rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .icon-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        .icon-card img {
+            width: 100%;
+            max-width: 120px;
+            margin: 0 auto 0.5rem auto;
+            display: block;
+        }
+
+        .icon-name {
+            text-align: center;
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: #333;
+            word-break: break-word;
+        }
+
+        .header-image-container {
+            display: block;
+            max-width: 600px;
+            height: 200px;
+            /* Adjust this value to control how much is cropped */
+            margin: 0 auto 2rem auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            /* This hides the parts of the image outside the container */
+            transition: transform 0.3s ease;
+        }
+
+        .header-image-container:hover {
+            transform: scale(1.02);
+        }
+
+        .header-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* This makes the image cover the container */
+            object-position: center 40%;
+            /* Adjust this to control which part of the image is shown */
+        }
+
+        .nexus-link {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .nexus-link a {
+            color: #6c757d;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .nexus-link a:hover {
+            color: #0d6efd;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center mb-4">Wheeler of Enhancement Compendium</h1>
+        <div class="nexus-link">
+            <a href="" target="_blank" class="header-image-container">
+                <img src="" alt="WOE AIO" class="header-image">
+            </a>
+            <a href="" target="_blank">
+                <h3 class="text-center">WOE, All in One Installer</h3>
+            </a>
+        </div>
+        <div class="row g-4">
+            <h2 class="mt-5 mb-3">Images</h2><div class="row g-4"></div><h2 class="mt-5 mb-3">Gifs</h2><div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="./Images\Gifs\DDDM_Wheeler.gif" class="card-img-top half-resolution" alt="DDDM">
+                        <div class="card-body">
+                            <h5 class="card-title">DDDM</h5>
+                        </div>
+                    </div>
+                </div>
+                
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="./Images\DDDM.png" class="card-img-top half-resolution" alt="Image for DDDM">
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/DDDM Reskin/SKSE/Plugins/wheeler/resources/icons/slot_active_background.svg" class="card-img-top svg-icon" alt="slot_active_background.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">slot_active_background.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/DDDM Reskin/SKSE/Plugins/wheeler/resources/icons/slot_background.svg" class="card-img-top svg-icon" alt="slot_background.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">slot_background.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/DDDM Reskin/SKSE/Plugins/wheeler/resources/icons/slot_highlighted_background.svg" class="card-img-top svg-icon" alt="slot_highlighted_background.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">slot_highlighted_background.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/DDDM Reskin/SKSE/Plugins/wheeler/resources/icons/wheel_background.svg" class="card-img-top svg-icon" alt="wheel_background.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">wheel_background.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/DDDM Reskin/SKSE/Plugins/wheeler/resources/icons/wheel_indicator_active.svg" class="card-img-top svg-icon" alt="wheel_indicator_active.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">wheel_indicator_active.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/DDDM Reskin/SKSE/Plugins/wheeler/resources/icons/wheel_indicator_inactive.svg" class="card-img-top svg-icon" alt="wheel_indicator_inactive.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">wheel_indicator_inactive.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="./Images\Gifs\Fighter_Wheeler.gif" class="card-img-top half-resolution" alt="Fighter">
+                        <div class="card-body">
+                            <h5 class="card-title">Fighter</h5>
+                        </div>
+                    </div>
+                </div>
+                
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="./Images\Fighter.png" class="card-img-top half-resolution" alt="Image for Fighter">
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/Fighter Reskin/SKSE/Plugins/wheeler/resources/icons/slot_active_background.svg" class="card-img-top svg-icon" alt="slot_active_background.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">slot_active_background.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/Fighter Reskin/SKSE/Plugins/wheeler/resources/icons/slot_background.svg" class="card-img-top svg-icon" alt="slot_background.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">slot_background.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/Fighter Reskin/SKSE/Plugins/wheeler/resources/icons/slot_highlighted_background.svg" class="card-img-top svg-icon" alt="slot_highlighted_background.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">slot_highlighted_background.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/Fighter Reskin/SKSE/Plugins/wheeler/resources/icons/wheel_background.svg" class="card-img-top svg-icon" alt="wheel_background.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">wheel_background.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/Fighter Reskin/SKSE/Plugins/wheeler/resources/icons/wheel_indicator_active.svg" class="card-img-top svg-icon" alt="wheel_indicator_active.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">wheel_indicator_active.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/Fighter Reskin/SKSE/Plugins/wheeler/resources/icons/wheel_indicator_inactive.svg" class="card-img-top svg-icon" alt="wheel_indicator_inactive.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">wheel_indicator_inactive.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="./Images\Gifs\Mage_Wheeler.gif" class="card-img-top half-resolution" alt="Mage">
+                        <div class="card-body">
+                            <h5 class="card-title">Mage</h5>
+                        </div>
+                    </div>
+                </div>
+                
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="./Images\DDDM.png" class="card-img-top half-resolution" alt="Image for Mage">
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/Mage Reskin/SKSE/Plugins/wheeler/resources/icons/slot_active_background.svg" class="card-img-top svg-icon" alt="slot_active_background.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">slot_active_background.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/Mage Reskin/SKSE/Plugins/wheeler/resources/icons/slot_background.svg" class="card-img-top svg-icon" alt="slot_background.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">slot_background.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/Mage Reskin/SKSE/Plugins/wheeler/resources/icons/slot_highlighted_background.svg" class="card-img-top svg-icon" alt="slot_highlighted_background.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">slot_highlighted_background.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/Mage Reskin/SKSE/Plugins/wheeler/resources/icons/wheel_background.svg" class="card-img-top svg-icon" alt="wheel_background.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">wheel_background.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/Mage Reskin/SKSE/Plugins/wheeler/resources/icons/wheel_indicator_active.svg" class="card-img-top svg-icon" alt="wheel_indicator_active.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">wheel_indicator_active.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/Mage Reskin/SKSE/Plugins/wheeler/resources/icons/wheel_indicator_inactive.svg" class="card-img-top svg-icon" alt="wheel_indicator_inactive.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">wheel_indicator_inactive.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="./Images\Gifs\Rogue_Wheeler.gif" class="card-img-top half-resolution" alt="Rogue">
+                        <div class="card-body">
+                            <h5 class="card-title">Rogue</h5>
+                        </div>
+                    </div>
+                </div>
+                
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="./Images\Rogue.png" class="card-img-top half-resolution" alt="Image for Rogue">
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/Rogue Reskin/SKSE/Plugins/wheeler/resources/icons/slot_active_background.svg" class="card-img-top svg-icon" alt="slot_active_background.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">slot_active_background.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/Rogue Reskin/SKSE/Plugins/wheeler/resources/icons/slot_background.svg" class="card-img-top svg-icon" alt="slot_background.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">slot_background.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/Rogue Reskin/SKSE/Plugins/wheeler/resources/icons/slot_highlighted_background.svg" class="card-img-top svg-icon" alt="slot_highlighted_background.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">slot_highlighted_background.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/Rogue Reskin/SKSE/Plugins/wheeler/resources/icons/wheel_background.svg" class="card-img-top svg-icon" alt="wheel_background.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">wheel_background.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/Rogue Reskin/SKSE/Plugins/wheeler/resources/icons/wheel_indicator_active.svg" class="card-img-top svg-icon" alt="wheel_indicator_active.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">wheel_indicator_active.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="Reskins/Rogue Reskin/SKSE/Plugins/wheeler/resources/icons/wheel_indicator_inactive.svg" class="card-img-top svg-icon" alt="wheel_indicator_inactive.svg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">wheel_indicator_inactive.svg</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            </div></div>
+        </div>
+    </div>
+</body>
+
+</html>
